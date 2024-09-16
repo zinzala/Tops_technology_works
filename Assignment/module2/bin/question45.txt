@@ -1,0 +1,16 @@
+45. Difference between object oriented and object based language.
+
+Ans -                            object-oriented                                object-based
+
+     Encapsulation -  Supported                                       Supported
+
+     Inheritance   -  Supported (classes can inherit from others).    Not supported (no inheritance mechanism).
+
+     Polymorphism  -  Supported (method overriding and dynamic        Not supported (no polymorphism)
+                      behavior)
+
+     Abstraction   -  Supported                                       Supported
+
+     Class-based   -  Uses classes to define objects                  May or may not use classes (prototype-based)
+
+     Examples      -  Java, C++, Python, Dart                         JavaScript (pre-ES6), VBScript, Visual Basic

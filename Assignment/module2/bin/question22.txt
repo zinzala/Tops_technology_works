@@ -1,0 +1,29 @@
+22. Which inheritance is not supported by Dart? Why? B3. What is advantage of inheritance?
+
+Ans -   Dart does not support Multiple inheritance. This means that a derived class can not directly inherit from more than
+        one Base class.
+
+        The reason is to avoid the complexity and ambiguity that arises from it. The most common issue with multiple inheritance
+        is the Diamond Problem, where a class inherits from two classes that both inherit from a common parent class. This leads
+        to ambiguity about which version of a method or property the child class should inherit.
+
+        for example :
+
+                     A
+                   /   \
+                  B     C
+                   \   /
+                     D
+
+        As you see in the above example the Derived class(D) inherits from two Base class B and C. class B and C inherits
+        class A. this leads to diamond problem.
+
+        Advantage of inheritance is as follows:
+        1. code reusability
+        2. allow to add new feature to existing classes
+        3. create hierarchy structure for classes
+
+
+
+
+

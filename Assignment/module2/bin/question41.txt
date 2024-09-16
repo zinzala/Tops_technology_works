@@ -1,0 +1,5 @@
+41. What happens when a class implements two interfaces and both declare field (variable) with same name?
+
+Ans - In Dart, interfaces don't declare fields (variables) directly; they can only declare methods (including getters and setters).
+      If a class implements two interfaces that both have getters or setters with the same name, we must resolve the conflict by
+      providing our own implementation for the conflicting member in the class that implements both interfaces.

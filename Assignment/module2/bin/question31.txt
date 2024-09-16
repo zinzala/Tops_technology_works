@@ -1,0 +1,9 @@
+31. What happens if the parent and the child class have a field with same identifier? B16. Are constructors and initializers
+    also inherited to sub-classes?
+
+Ans - If both the parent (superclass) and the child (subclass) have a field with the same identifier (i.e., same variable name),
+      the field in the child class shadows the one in the parent class. This means that when you access the field in an instance
+      of the child class, it refers to the child's version of the field, not the parent's.
+
+      Constructors and initializers are not inherited by subclasses in object-oriented programming languages like Dart. However,
+      the subclass can call the parent class's constructor using super().

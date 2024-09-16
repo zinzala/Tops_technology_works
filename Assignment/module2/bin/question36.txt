@@ -1,0 +1,4 @@
+36. When to overload a method in Dart and when to override it?
+
+Ans - we should override a method when we want to change or customize the behavior of a method that is inherited from a superclass.
+      dart does not support method overloading.

@@ -1,0 +1,5 @@
+28. Can an interface extend more than one interface in Dart?
+
+Ans - Yes, in Dart, an interface can extend more than one interface. This allows a class that implements that interface to
+      inherit behavior from multiple interfaces. In Dart, every class is an interface, and you can define an interface by
+      simply creating a class without method implementations or by using abstract classes.

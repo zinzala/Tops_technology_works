@@ -1,0 +1,5 @@
+32. How do you restrict a member of a class from inheriting by its sub-classes?
+
+Ans - In Dart, if we want to restrict a member of a class from being inherited by its subclasses, we can use the **private**
+      keyword, which is denoted by prefixing the member (field or method) with an underscore (_). This makes the member private to
+      the library it is defined in, which effectively hides it from subclasses outside that library.

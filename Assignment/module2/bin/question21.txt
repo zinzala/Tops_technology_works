@@ -1,0 +1,20 @@
+21. What is inheritance?
+
+Ans -   inheritance in programming is a feature that allow object to acquire properties and methods of other object.
+        because of this feature instead of writing same code in multiple class we can inherit properties and methods
+        of Base class into derived class. thus code Reusability is one of the benefit of inheritance.
+
+        for example :
+
+        class Animal{
+
+        }
+
+        class Dog extends Animal{
+
+        }
+
+
+        in the above example Animal is Base_class and Dog is Derived_class. as you see in the above example ' extends '
+        keyword is used to inherit properties and method.
+

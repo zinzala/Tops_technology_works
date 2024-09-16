@@ -1,0 +1,5 @@
+38. How do you prevent overriding a Dart method without using the final modifier?
+
+Ans - In Dart, if we want to prevent a method from being overridden in a subclass without using the final modifier,
+      we can achieve this by marking the method as private using an underscore (_) as a prefix. A private method is
+      only accessible within the same library and cannot be overridden by subclasses that are outside of that library.

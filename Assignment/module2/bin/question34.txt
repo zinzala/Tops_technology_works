@@ -1,0 +1,5 @@
+34. Can a class extend by itself in Dart?
+
+Ans - No, a class in Dart cannot extend itself. Dart (and most object-oriented programming languages) does not allow a class to
+      extend itself because it would create an infinite recursive relationship, which would be illogical and result in compilation
+      errors.

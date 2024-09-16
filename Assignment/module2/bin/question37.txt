@@ -1,0 +1,15 @@
+37. What the order is of extends and implements keyword on Dart class declaration?
+
+Ans - In Dart, when you declare a class that both extends a class (single inheritance) and implements interfaces,
+      the correct order is:
+
+      1 extends comes first
+
+      2 implements comes after
+
+      for example
+
+      class MyClass extends ParentClass implements Interface1, Interface2 {
+
+      }
+

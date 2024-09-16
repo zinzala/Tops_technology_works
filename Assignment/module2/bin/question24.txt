@@ -1,0 +1,11 @@
+24. Difference between inheritance and polymorphism
+
+Ans -                       Inheritance                                              polymorphism
+           - A mechanism where one class acquires the properties       A mechanism that allows different classes to be treated
+             and behaviors of a parent class.                          as instances of the same class through a common interface.
+
+           - Deals with a "is-a" relationship between classes          Focuses on "many forms" where a method or function can
+             (e.g., Dog is a Animal).                                  behave differently based on the object.
+
+           - Achieved by extending a base class or implementing        Achieved through method overriding (runtime polymorphism).
+             interfaces.

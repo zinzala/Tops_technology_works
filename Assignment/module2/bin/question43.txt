@@ -1,0 +1,4 @@
+43. Can a subclass static method hide superclass instance method?
+
+Ans - No, a subclass static method cannot "hide" or override a superclass instance method in Dart. Static methods and instance
+      methods are part of different mechanisms within a class and operate in separate contexts.

@@ -1,0 +1,5 @@
+44. Can a superclass access subclass member?
+
+Ans - No, a superclass cannot access members of its subclass directly. In object-oriented programming, including Dart, the inheritance
+      relationship works in a one-way direction: a subclass can access members (fields, methods) of its superclass, but the superclass
+      has no knowledge of the members defined in its subclasses.
